@@ -24,6 +24,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { ContactForm } from "@/components/contact-form"
 
 export default function LandingPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -485,31 +486,7 @@ export default function LandingPage() {
               </p>
             </div>
 
-            <div className="max-w-md mx-auto">
-              <form className="space-y-4">
-                <Input
-                  type="text"
-                  placeholder="Your Name"
-                  className="w-full bg-[#1a1a1a] border-gray-800 text-gray-100 placeholder:text-gray-500 rounded-xl h-14 px-4"
-                />
-
-                <Input
-                  type="email"
-                  placeholder="Your Email"
-                  className="w-full bg-[#1a1a1a] border-gray-800 text-gray-100 placeholder:text-gray-500 rounded-xl h-14 px-4"
-                />
-
-                <Textarea
-                  placeholder="Your Message"
-                  rows={5}
-                  className="w-full bg-[#1a1a1a] border-gray-800 text-gray-100 placeholder:text-gray-500 rounded-xl px-4 py-3"
-                />
-
-                <Button className="w-full h-14 rounded-full font-medium text-black bg-gradient-to-r from-[#00bcd4] to-[#00e5ff] hover:opacity-90 transition-opacity text-base">
-                  Send Message
-                </Button>
-              </form>
-            </div>
+            <ContactForm />
           </div>
         </section>
 
