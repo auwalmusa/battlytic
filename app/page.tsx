@@ -511,13 +511,31 @@ export default function LandingPage() {
             </div>
 
             <div className="flex gap-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/company/battlytics-solutions"
+                className="text-gray-400 hover:text-white transition-colors"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
+              <a
+                href="https://x.com/auwal_musam"
+                className="text-gray-400 hover:text-white transition-colors"
+                aria-label="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="YouTube">
+              <a
+                href="https://www.youtube.com/@DataChem_lab"
+                className="text-gray-400 hover:text-white transition-colors"
+                aria-label="YouTube"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Youtube className="h-5 w-5" />
               </a>
             </div>
