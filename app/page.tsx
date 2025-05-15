@@ -144,9 +144,11 @@ export default function LandingPage() {
             <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
               Smarter data. Stronger batteries. Unlock predictive insights with Battlytics.
             </p>
-            <Button className="bg-[#00bcd4] hover:bg-[#00acc1] text-black font-semibold px-6 py-5 sm:px-8 sm:py-6 rounded-full text-lg transition-colors">
-              Request a Consultation
-            </Button>
+            <a href="https://forms.gle/iF7aPXRu5nSr1kUN6" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-[#00bcd4] hover:bg-[#00acc1] text-black font-semibold px-6 py-5 sm:px-8 sm:py-6 rounded-full text-lg transition-colors">
+                Request a Consultation
+              </Button>
+            </a>
           </div>
         </section>
 
